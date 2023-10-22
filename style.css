@@ -1,0 +1,41 @@
+body, h1, div {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    color: #0e0d0d; /* Cambia el color del texto según tus preferencias */
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #0e0d0d;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    background-color: red;
+    color: #0e0d0d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resultado {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #0e0d0d;
+}
